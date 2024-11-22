@@ -1,0 +1,70 @@
+body {
+
+    color: chocolate;
+    background: rgb(255, 241, 163);
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 100;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 240, 200);
+    padding: 20px;
+    font-size: 32px;
+    color: chocolate;
+}
+
+.chamada {
+    background: rgb(237, 193, 111);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 40px;
+
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+
+.categoria-vídeos {
+
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.categoria-vídeos img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.categoria-vídeos img:hover {
+    opacity: 1.0;
+    border: 3px solid orange;
+}
+
+.categoria h2 {
+    color: chocolate;
+}
